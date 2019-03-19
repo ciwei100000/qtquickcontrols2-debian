@@ -9,6 +9,7 @@ qtquickcontrols2-opensource-src (5.12.2+dfsg-1) UNRELEASED; urgency=medium
   * Upstream has renamed the documentation module from qtquickcontrols2 to
     qtquickcontrols. Adjust the .install files accordingly and add Breaks /
     Replaces against qtquickcontrols5-doc{,-html} < 5.12.
+  * Update symbols files from the current build log.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 19 Mar 2019 15:45:18 +0300
 

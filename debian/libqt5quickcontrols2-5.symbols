@@ -1,8 +1,9 @@
-# SymbolsHelper-Confirmed: 5.11.1 amd64
+# SymbolsHelper-Confirmed: 5.12.2 amd64
 libQt5QuickControls2.so.5 libqt5quickcontrols2-5 #MINVER#
  Qt_5.0@Qt_5.0 5.7.1
  Qt_5.10@Qt_5.10 5.10.1
  Qt_5.11@Qt_5.11 5.11.1
+ Qt_5.12@Qt_5.12 5.12.0
  Qt_5.1@Qt_5.1 5.7.1
  Qt_5.2@Qt_5.2 5.7.1
  Qt_5.3@Qt_5.3 5.7.1
@@ -19,13 +20,13 @@ libQt5QuickControls2.so.5 libqt5quickcontrols2-5 #MINVER#
  _ZN11QQuickColor16staticMetaObjectE@Qt_5_PRIVATE_API 5.10.1
  _ZN11QQuickColorC1EP7QObject@Qt_5_PRIVATE_API 5.10.1
  _ZN11QQuickColorC2EP7QObject@Qt_5_PRIVATE_API 5.10.1
+ _ZN11QQuickStyle12addStylePathERK7QString@Qt_5 5.12.2
+ _ZN11QQuickStyle13stylePathListEv@Qt_5 5.12.2
  _ZN11QQuickStyle15availableStylesEv@Qt_5 5.9.0~rc
  _ZN11QQuickStyle16setFallbackStyleERK7QString@Qt_5 5.9.0~rc
  _ZN11QQuickStyle4nameEv@Qt_5 5.7.1
  _ZN11QQuickStyle4pathEv@Qt_5 5.7.1
  _ZN11QQuickStyle8setStyleERK7QString@Qt_5 5.7.1
- _ZN11QQuickThemeC1ERK7QString@Qt_5_PRIVATE_API 5.10.1
- _ZN11QQuickThemeC2ERK7QString@Qt_5_PRIVATE_API 5.10.1
  _ZN15QQuickIconImage10itemChangeEN10QQuickItem10ItemChangeERKNS0_14ItemChangeDataE@Qt_5_PRIVATE_API 5.10.1
  _ZN15QQuickIconImage11nameChangedEv@Qt_5_PRIVATE_API 5.10.1
  _ZN15QQuickIconImage11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.10.1
@@ -98,12 +99,6 @@ libQt5QuickControls2.so.5 libqt5quickcontrols2-5 #MINVER#
  _ZN16QQuickColorImage8setColorERK6QColor@Qt_5_PRIVATE_API 5.10.1
  _ZN16QQuickColorImageC1EP10QQuickItem@Qt_5_PRIVATE_API 5.10.1
  _ZN16QQuickColorImageC2EP10QQuickItem@Qt_5_PRIVATE_API 5.10.1
- _ZN16QQuickProxyTheme19showPlatformMenuBarEv@Qt_5_PRIVATE_API 5.7.1
- _ZN16QQuickProxyThemeC1EP14QPlatformTheme@Qt_5_PRIVATE_API 5.7.1
- _ZN16QQuickProxyThemeC2EP14QPlatformTheme@Qt_5_PRIVATE_API 5.7.1
- _ZN16QQuickProxyThemeD0Ev@Qt_5_PRIVATE_API 5.7.1
- _ZN16QQuickProxyThemeD1Ev@Qt_5_PRIVATE_API 5.7.1
- _ZN16QQuickProxyThemeD2Ev@Qt_5_PRIVATE_API 5.7.1
  _ZN17QQuickClippedText11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.10.1
  _ZN17QQuickClippedText11qt_metacastEPKc@Qt_5_PRIVATE_API 5.10.1
  _ZN17QQuickClippedText12setClipWidthEd@Qt_5_PRIVATE_API 5.10.1
@@ -116,8 +111,7 @@ libQt5QuickControls2.so.5 libqt5quickcontrols2-5 #MINVER#
  _ZN17QQuickClippedTextC2EP10QQuickItem@Qt_5_PRIVATE_API 5.10.1
  _ZN17QQuickStylePlugin11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.7.1
  _ZN17QQuickStylePlugin11qt_metacastEPKc@Qt_5_PRIVATE_API 5.7.1
- _ZN17QQuickStylePlugin13registerTypesEPKc@Qt_5_PRIVATE_API 5.7.1
- _ZN17QQuickStylePlugin16initializeEngineEP10QQmlEnginePKc@Qt_5_PRIVATE_API 5.7.1
+ _ZN17QQuickStylePlugin15initializeThemeEP11QQuickTheme@Qt_5_PRIVATE_API 5.12.2
  _ZN17QQuickStylePlugin16staticMetaObjectE@Qt_5_PRIVATE_API 5.7.1
  _ZN17QQuickStylePluginC1EP7QObject@Qt_5_PRIVATE_API 5.7.1
  _ZN17QQuickStylePluginC2EP7QObject@Qt_5_PRIVATE_API 5.7.1
@@ -159,13 +153,15 @@ libQt5QuickControls2.so.5 libqt5quickcontrols2-5 #MINVER#
  _ZN18QQuickAnimatedNode7stoppedEv@Qt_5_PRIVATE_API 5.9.0~rc
  _ZN18QQuickAnimatedNodeC1EP10QQuickItem@Qt_5_PRIVATE_API 5.9.0~rc
  _ZN18QQuickAnimatedNodeC2EP10QQuickItem@Qt_5_PRIVATE_API 5.9.0~rc
- _ZN18QQuickStylePrivate10stylePathsEv@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZN18QQuickStylePrivate10stylePathsEb@Qt_5_PRIVATE_API 5.12.2
+ _ZN18QQuickStylePrivate11readPaletteERK14QSharedPointerI9QSettingsE@Qt_5_PRIVATE_API 5.12.2
  _ZN18QQuickStylePrivate13fallbackStyleEv@Qt_5_PRIVATE_API 5.9.0~rc
  _ZN18QQuickStylePrivate13isCustomStyleEv@Qt_5_PRIVATE_API 5.9.0~rc
  _ZN18QQuickStylePrivate14configFilePathEv@Qt_5_PRIVATE_API 5.9.0~rc
  _ZN18QQuickStylePrivate17isDarkSystemThemeEv@Qt_5_PRIVATE_API 5.10.1
  _ZN18QQuickStylePrivate4initERK4QUrl@Qt_5_PRIVATE_API 5.9.0~rc
  _ZN18QQuickStylePrivate5resetEv@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZN18QQuickStylePrivate8readFontERK14QSharedPointerI9QSettingsE@Qt_5_PRIVATE_API 5.12.2
  _ZN18QQuickStylePrivate8settingsERK7QString@Qt_5_PRIVATE_API 5.10.1
  _ZN19QQuickMnemonicLabel11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.10.1
  _ZN19QQuickMnemonicLabel11qt_metacastEPKc@Qt_5_PRIVATE_API 5.10.1
@@ -175,25 +171,20 @@ libQt5QuickControls2.so.5 libqt5quickcontrols2-5 #MINVER#
  _ZN19QQuickMnemonicLabel7setTextERK7QString@Qt_5_PRIVATE_API 5.10.1
  _ZN19QQuickMnemonicLabelC1EP10QQuickItem@Qt_5_PRIVATE_API 5.10.1
  _ZN19QQuickMnemonicLabelC2EP10QQuickItem@Qt_5_PRIVATE_API 5.10.1
- _ZN19QQuickStyleSelector10setBaseUrlERK4QUrl@Qt_5_PRIVATE_API 5.7.1
+ _ZN19QQuickStyleSelector11addSelectorERK7QString@Qt_5_PRIVATE_API 5.12.2
+ _ZN19QQuickStyleSelector8setPathsERK11QStringList@Qt_5_PRIVATE_API 5.12.2
  _ZN19QQuickStyleSelectorC1Ev@Qt_5_PRIVATE_API 5.7.1
  _ZN19QQuickStyleSelectorC2Ev@Qt_5_PRIVATE_API 5.7.1
  _ZN19QQuickStyleSelectorD1Ev@Qt_5_PRIVATE_API 5.7.1
  _ZN19QQuickStyleSelectorD2Ev@Qt_5_PRIVATE_API 5.7.1
- _ZN20QQuickAttachedObject10detachFromEP7QObject@Qt_5_PRIVATE_API 5.10.1
  _ZN20QQuickAttachedObject11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.10.1
  _ZN20QQuickAttachedObject11qt_metacastEPKc@Qt_5_PRIVATE_API 5.10.1
  _ZN20QQuickAttachedObject16staticMetaObjectE@Qt_5_PRIVATE_API 5.10.1
- _ZN20QQuickAttachedObject17itemParentChangedEP10QQuickItemS1_@Qt_5_PRIVATE_API 5.10.1
- _ZN20QQuickAttachedObject17itemWindowChangedEP12QQuickWindow@Qt_5_PRIVATE_API 5.10.1
  _ZN20QQuickAttachedObject17setAttachedParentEPS_@Qt_5_PRIVATE_API 5.10.1
  _ZN20QQuickAttachedObject20attachedParentChangeEPS_S0_@Qt_5_PRIVATE_API 5.10.1
  _ZN20QQuickAttachedObject4initEv@Qt_5_PRIVATE_API 5.10.1
- _ZN20QQuickAttachedObject8attachToEP7QObject@Qt_5_PRIVATE_API 5.10.1
  _ZN20QQuickAttachedObjectC1EP7QObject@Qt_5_PRIVATE_API 5.10.1
- _ZN20QQuickAttachedObjectC1ER14QObjectPrivateP7QObject@Qt_5_PRIVATE_API 5.10.1
  _ZN20QQuickAttachedObjectC2EP7QObject@Qt_5_PRIVATE_API 5.10.1
- _ZN20QQuickAttachedObjectC2ER14QObjectPrivateP7QObject@Qt_5_PRIVATE_API 5.10.1
  _ZN20QQuickAttachedObjectD0Ev@Qt_5_PRIVATE_API 5.10.1
  _ZN20QQuickAttachedObjectD1Ev@Qt_5_PRIVATE_API 5.10.1
  _ZN20QQuickAttachedObjectD2Ev@Qt_5_PRIVATE_API 5.10.1
@@ -235,10 +226,6 @@ libQt5QuickControls2.so.5 libqt5quickcontrols2-5 #MINVER#
  _ZNK11QQuickColor10metaObjectEv@Qt_5_PRIVATE_API 5.10.1
  _ZNK11QQuickColor11transparentERK6QColord@Qt_5_PRIVATE_API 5.10.1
  _ZNK11QQuickColor5blendERK6QColorS2_d@Qt_5_PRIVATE_API 5.10.1
- _ZNK11QQuickTheme11resolveFontERK5QFont@Qt_5_PRIVATE_API 5.10.1
- _ZNK11QQuickTheme14resolvePaletteERK8QPalette@Qt_5_PRIVATE_API 5.10.1
- _ZNK11QQuickTheme4fontEN14QPlatformTheme4FontE@Qt_5_PRIVATE_API 5.10.1
- _ZNK11QQuickTheme7paletteEN14QPlatformTheme7PaletteE@Qt_5_PRIVATE_API 5.10.1
  _ZNK15QQuickIconImage10metaObjectEv@Qt_5_PRIVATE_API 5.10.1
  _ZNK15QQuickIconImage4nameEv@Qt_5_PRIVATE_API 5.10.1
  _ZNK15QQuickIconImage5colorEv@Qt_5_PRIVATE_API 5.10.1
@@ -261,21 +248,6 @@ libQt5QuickControls2.so.5 libqt5quickcontrols2-5 #MINVER#
  _ZNK16QQuickColorImage10metaObjectEv@Qt_5_PRIVATE_API 5.10.1
  _ZNK16QQuickColorImage12defaultColorEv@Qt_5_PRIVATE_API 5.10.1
  _ZNK16QQuickColorImage5colorEv@Qt_5_PRIVATE_API 5.10.1
- _ZNK16QQuickProxyTheme11keyBindingsEN12QKeySequence11StandardKeyE@Qt_5_PRIVATE_API 5.7.1
- _ZNK16QQuickProxyTheme14standardPixmapEN14QPlatformTheme14StandardPixmapERK6QSizeF@Qt_5_PRIVATE_API 5.7.1
- _ZNK16QQuickProxyTheme16createIconEngineERK7QString@Qt_5_PRIVATE_API 5.7.1
- _ZNK16QQuickProxyTheme18createPlatformMenuEv@Qt_5_PRIVATE_API 5.7.1
- _ZNK16QQuickProxyTheme18standardButtonTextEi@Qt_5_PRIVATE_API 5.7.1
- _ZNK16QQuickProxyTheme21createPlatformMenuBarEv@Qt_5_PRIVATE_API 5.7.1
- _ZNK16QQuickProxyTheme22createPlatformMenuItemEv@Qt_5_PRIVATE_API 5.7.1
- _ZNK16QQuickProxyTheme23usePlatformNativeDialogEN14QPlatformTheme10DialogTypeE@Qt_5_PRIVATE_API 5.7.1
- _ZNK16QQuickProxyTheme26createPlatformDialogHelperEN14QPlatformTheme10DialogTypeE@Qt_5_PRIVATE_API 5.7.1
- _ZNK16QQuickProxyTheme28createPlatformSystemTrayIconEv@Qt_5_PRIVATE_API 5.7.1
- _ZNK16QQuickProxyTheme4fontEN14QPlatformTheme4FontE@Qt_5_PRIVATE_API 5.7.1
- _ZNK16QQuickProxyTheme5themeEv@Qt_5_PRIVATE_API 5.7.1
- _ZNK16QQuickProxyTheme7paletteEN14QPlatformTheme7PaletteE@Qt_5_PRIVATE_API 5.7.1
- _ZNK16QQuickProxyTheme8fileIconERK9QFileInfo6QFlagsIN14QPlatformTheme10IconOptionEE@Qt_5_PRIVATE_API 5.9.0~rc
- _ZNK16QQuickProxyTheme9themeHintEN14QPlatformTheme9ThemeHintE@Qt_5_PRIVATE_API 5.7.1
  _ZNK17QQuickClippedText10clipHeightEv@Qt_5_PRIVATE_API 5.10.1
  _ZNK17QQuickClippedText10metaObjectEv@Qt_5_PRIVATE_API 5.10.1
  _ZNK17QQuickClippedText5clipXEv@Qt_5_PRIVATE_API 5.10.1
@@ -283,10 +255,8 @@ libQt5QuickControls2.so.5 libqt5quickcontrols2-5 #MINVER#
  _ZNK17QQuickClippedText8clipRectEv@Qt_5_PRIVATE_API 5.10.1
  _ZNK17QQuickClippedText9clipWidthEv@Qt_5_PRIVATE_API 5.10.1
  _ZNK17QQuickStylePlugin10metaObjectEv@Qt_5_PRIVATE_API 5.7.1
- _ZNK17QQuickStylePlugin11createThemeEv@Qt_5_PRIVATE_API 5.7.1
+ _ZNK17QQuickStylePlugin11resolvedUrlERK7QString@Qt_5_PRIVATE_API 5.12.2
  _ZNK17QQuickStylePlugin4nameEv@Qt_5_PRIVATE_API 5.7.1
- _ZNK17QQuickStylePlugin7typeUrlERK7QString@Qt_5_PRIVATE_API 5.7.1
- _ZNK17QQuickStylePlugin9isCurrentEv@Qt_5_PRIVATE_API 5.10.1
  _ZNK17QQuickTumblerView10metaObjectEv@Qt_5_PRIVATE_API 5.9.0~rc
  _ZNK17QQuickTumblerView4pathEv@Qt_5_PRIVATE_API 5.9.0~rc
  _ZNK17QQuickTumblerView5modelEv@Qt_5_PRIVATE_API 5.9.0~rc
@@ -300,8 +270,9 @@ libQt5QuickControls2.so.5 libqt5quickcontrols2-5 #MINVER#
  _ZNK19QQuickMnemonicLabel10metaObjectEv@Qt_5_PRIVATE_API 5.10.1
  _ZNK19QQuickMnemonicLabel17isMnemonicVisibleEv@Qt_5_PRIVATE_API 5.10.1
  _ZNK19QQuickMnemonicLabel4textEv@Qt_5_PRIVATE_API 5.10.1
+ _ZNK19QQuickStyleSelector5pathsEv@Qt_5_PRIVATE_API 5.12.2
  _ZNK19QQuickStyleSelector6selectERK7QString@Qt_5_PRIVATE_API 5.7.1
- _ZNK19QQuickStyleSelector7baseUrlEv@Qt_5_PRIVATE_API 5.7.1
+ _ZNK19QQuickStyleSelector9selectorsEv@Qt_5_PRIVATE_API 5.12.2
  _ZNK20QQuickAttachedObject10metaObjectEv@Qt_5_PRIVATE_API 5.10.1
  _ZNK20QQuickAttachedObject14attachedParentEv@Qt_5_PRIVATE_API 5.10.1
  _ZNK20QQuickAttachedObject16attachedChildrenEv@Qt_5_PRIVATE_API 5.10.1
@@ -314,13 +285,11 @@ libQt5QuickControls2.so.5 libqt5quickcontrols2-5 #MINVER#
  _ZNK21QQuickPlaceholderText10metaObjectEv@Qt_5_PRIVATE_API 5.9.0~rc
  _ZNK22QQuickIconImagePrivate25calculateDevicePixelRatioEv@Qt_5_PRIVATE_API 5.10.1
  _ZTI11QQuickColor@Qt_5_PRIVATE_API 5.10.1
- _ZTI11QQuickTheme@Qt_5_PRIVATE_API 5.10.1
  _ZTI15QQuickIconImage@Qt_5_PRIVATE_API 5.10.1
  _ZTI15QQuickIconLabel@Qt_5_PRIVATE_API 5.10.1
  _ZTI15QQuickItemGroup@Qt_5_PRIVATE_API 5.10.1
  _ZTI16QQuickCheckLabel@Qt_5_PRIVATE_API 5.10.1
  _ZTI16QQuickColorImage@Qt_5_PRIVATE_API 5.10.1
- _ZTI16QQuickProxyTheme@Qt_5_PRIVATE_API 5.7.1
  _ZTI17QQuickClippedText@Qt_5_PRIVATE_API 5.10.1
  _ZTI17QQuickStylePlugin@Qt_5_PRIVATE_API 5.7.1
  _ZTI17QQuickTumblerView@Qt_5_PRIVATE_API 5.9.0~rc
@@ -333,13 +302,11 @@ libQt5QuickControls2.so.5 libqt5quickcontrols2-5 #MINVER#
  _ZTI22QQuickIconImagePrivate@Qt_5_PRIVATE_API 5.10.1
  _ZTI29QQuickImplicitSizeItemPrivate@Qt_5 5.10.1
  _ZTS11QQuickColor@Qt_5_PRIVATE_API 5.10.1
- _ZTS11QQuickTheme@Qt_5_PRIVATE_API 5.10.1
  _ZTS15QQuickIconImage@Qt_5_PRIVATE_API 5.10.1
  _ZTS15QQuickIconLabel@Qt_5_PRIVATE_API 5.10.1
  _ZTS15QQuickItemGroup@Qt_5_PRIVATE_API 5.10.1
  _ZTS16QQuickCheckLabel@Qt_5_PRIVATE_API 5.10.1
  _ZTS16QQuickColorImage@Qt_5_PRIVATE_API 5.10.1
- _ZTS16QQuickProxyTheme@Qt_5_PRIVATE_API 5.7.1
  _ZTS17QQuickClippedText@Qt_5_PRIVATE_API 5.10.1
  _ZTS17QQuickStylePlugin@Qt_5_PRIVATE_API 5.7.1
  _ZTS17QQuickTumblerView@Qt_5_PRIVATE_API 5.9.0~rc
@@ -352,13 +319,11 @@ libQt5QuickControls2.so.5 libqt5quickcontrols2-5 #MINVER#
  _ZTS22QQuickIconImagePrivate@Qt_5_PRIVATE_API 5.10.1
  _ZTS29QQuickImplicitSizeItemPrivate@Qt_5 5.10.1
  _ZTV11QQuickColor@Qt_5_PRIVATE_API 5.10.1
- _ZTV11QQuickTheme@Qt_5_PRIVATE_API 5.10.1
  _ZTV15QQuickIconImage@Qt_5_PRIVATE_API 5.10.1
  _ZTV15QQuickIconLabel@Qt_5_PRIVATE_API 5.10.1
  _ZTV15QQuickItemGroup@Qt_5_PRIVATE_API 5.10.1
  _ZTV16QQuickCheckLabel@Qt_5_PRIVATE_API 5.10.1
  _ZTV16QQuickColorImage@Qt_5_PRIVATE_API 5.10.1
- _ZTV16QQuickProxyTheme@Qt_5_PRIVATE_API 5.7.1
  _ZTV17QQuickClippedText@Qt_5_PRIVATE_API 5.10.1
  _ZTV17QQuickStylePlugin@Qt_5_PRIVATE_API 5.7.1
  _ZTV17QQuickTumblerView@Qt_5_PRIVATE_API 5.9.0~rc
@@ -369,8 +334,6 @@ libQt5QuickControls2.so.5 libqt5quickcontrols2-5 #MINVER#
  _ZTV21QQuickPlaceholderText@Qt_5_PRIVATE_API 5.9.0~rc
  _ZTV22QQuickIconImagePrivate@Qt_5_PRIVATE_API 5.10.1
  _ZTV29QQuickImplicitSizeItemPrivate@Qt_5 5.10.1
- (c++)"non-virtual thunk to QQuickAttachedObject::itemParentChanged(QQuickItem*, QQuickItem*)@Qt_5_PRIVATE_API" 5.10.1
- (c++)"non-virtual thunk to QQuickAttachedObject::~QQuickAttachedObject()@Qt_5_PRIVATE_API" 5.10.1
  (c++)"non-virtual thunk to QQuickIconImage::componentComplete()@Qt_5_PRIVATE_API" 5.10.1
  (c++)"non-virtual thunk to QQuickIconLabel::componentComplete()@Qt_5_PRIVATE_API" 5.10.1
  (c++)"non-virtual thunk to QQuickIconLabel::~QQuickIconLabel()@Qt_5_PRIVATE_API" 5.10.1
@@ -378,7 +341,5 @@ libQt5QuickControls2.so.5 libqt5quickcontrols2-5 #MINVER#
  (c++)"non-virtual thunk to QQuickItemGroup::itemImplicitWidthChanged(QQuickItem*)@Qt_5_PRIVATE_API" 5.10.1
  (c++)"non-virtual thunk to QQuickItemGroup::~QQuickItemGroup()@Qt_5_PRIVATE_API" 5.10.1
  (c++)"non-virtual thunk to QQuickPlaceholderText::componentComplete()@Qt_5_PRIVATE_API" 5.9.0~rc
- (c++)"non-virtual thunk to QQuickStylePlugin::initializeEngine(QQmlEngine*, char const*)@Qt_5_PRIVATE_API" 5.7.1
- (c++)"non-virtual thunk to QQuickStylePlugin::registerTypes(char const*)@Qt_5_PRIVATE_API" 5.7.1
  (c++)"non-virtual thunk to QQuickStylePlugin::~QQuickStylePlugin()@Qt_5_PRIVATE_API" 5.7.1
  (c++)"non-virtual thunk to QQuickTumblerView::componentComplete()@Qt_5_PRIVATE_API" 5.9.0~rc
