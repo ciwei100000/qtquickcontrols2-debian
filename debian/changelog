@@ -10,6 +10,7 @@ qtquickcontrols2-opensource-src (5.12.2+dfsg-1) UNRELEASED; urgency=medium
     qtquickcontrols. Adjust the .install files accordingly and add Breaks /
     Replaces against qtquickcontrols5-doc{,-html} < 5.12.
   * Update symbols files from the current build log.
+  * Bump pkg-kde-tools build-dependency to 0.15.29 (closes: #905738).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 19 Mar 2019 15:45:18 +0300
 
