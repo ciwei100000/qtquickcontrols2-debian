@@ -1,6 +1,5 @@
-qtquickcontrols2-opensource-src (5.12.2+dfsg-1) UNRELEASED; urgency=medium
+qtquickcontrols2-opensource-src (5.12.2+dfsg-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release.
   * Update debian/libqt5quicktemplates2-5.symbols from buildds’ logs.
   * Bump Qt build-dependencies to 5.12.2.
@@ -12,7 +11,7 @@ qtquickcontrols2-opensource-src (5.12.2+dfsg-1) UNRELEASED; urgency=medium
   * Update symbols files from the current build log.
   * Bump pkg-kde-tools build-dependency to 0.15.29 (closes: #905738).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 19 Mar 2019 15:45:18 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Sun, 24 Mar 2019 20:48:34 +0300
 
 qtquickcontrols2-opensource-src (5.11.3+dfsg-2) unstable; urgency=medium
 
