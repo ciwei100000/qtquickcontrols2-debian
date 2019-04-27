@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.12.2 amd64
+# SymbolsHelper-Confirmed: 5.12.2 amd64 arm64 armel armhf hurd-i386 i386 m68k mips mips64el mipsel powerpc ppc64 ppc64el s390x x32
 libQt5QuickTemplates2.so.5 libqt5quicktemplates2-5 #MINVER#
  Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN10QQuickDial10setPressedEb@Qt_5_PRIVATE_API 5.6.0~beta
@@ -1734,6 +1734,7 @@ libQt5QuickTemplates2.so.5 libqt5quicktemplates2-5 #MINVER#
  _ZN21QQuickPaletteProvider4initEv@Qt_5_PRIVATE_API 5.10.1
  _ZN21QQuickPaletteProvider4readERK8QVariantPvi@Qt_5_PRIVATE_API 5.10.1
  _ZN21QQuickPaletteProvider5equalEiPKvRK8QVariant@Qt_5_PRIVATE_API 5.10.1
+ (subst)_ZN21QQuickPaletteProvider5storeEiPKvPv{size_t}@Qt_5_PRIVATE_API 5.12.2
  _ZN21QQuickPaletteProvider5writeEiPKvR8QVariant@Qt_5_PRIVATE_API 5.10.1
  _ZN21QQuickPaletteProvider7cleanupEv@Qt_5_PRIVATE_API 5.10.1
  _ZN21QQuickRangeSliderNode10setHoveredEb@Qt_5_PRIVATE_API 5.9.0~rc
