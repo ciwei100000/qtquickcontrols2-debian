@@ -1,3 +1,10 @@
+qtquickcontrols2-opensource-src (5.12.3+dfsg-1) UNRELEASED; urgency=medium
+
+  [ Dmitry Shachnev ]
+  * New upstream release.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 27 Apr 2019 14:45:11 +0300
+
 qtquickcontrols2-opensource-src (5.12.2+dfsg-1) experimental; urgency=medium
 
   * New upstream release.
