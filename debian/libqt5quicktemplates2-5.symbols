@@ -1,5 +1,19 @@
-# SymbolsHelper-Confirmed: 5.12.2 amd64 arm64 armel armhf hurd-i386 i386 m68k mips mips64el mipsel powerpc ppc64 ppc64el s390x x32
+# SymbolsHelper-Confirmed: 5.12.3 amd64
 libQt5QuickTemplates2.so.5 libqt5quicktemplates2-5 #MINVER#
+ Qt_5.0@Qt_5.0 5.12.3
+ Qt_5.10@Qt_5.10 5.12.3
+ Qt_5.11@Qt_5.11 5.12.3
+ Qt_5.12@Qt_5.12 5.12.3
+ Qt_5.1@Qt_5.1 5.12.3
+ Qt_5.2@Qt_5.2 5.12.3
+ Qt_5.3@Qt_5.3 5.12.3
+ Qt_5.4@Qt_5.4 5.12.3
+ Qt_5.5@Qt_5.5 5.12.3
+ Qt_5.6@Qt_5.6 5.12.3
+ Qt_5.7@Qt_5.7 5.12.3
+ Qt_5.8@Qt_5.8 5.12.3
+ Qt_5.9@Qt_5.9 5.12.3
+ Qt_5@Qt_5 5.12.3
  Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN10QQuickDial10setPressedEb@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN10QQuickDial10touchEventEP11QTouchEvent@Qt_5_PRIVATE_API 5.9.0~rc
@@ -2628,6 +2642,7 @@ libQt5QuickTemplates2.so.5 libqt5quicktemplates2-5 #MINVER#
  _ZNK25QQuickActionGroupAttached5groupEv@Qt_5_PRIVATE_API 5.10.1
  _ZNK25QQuickButtonGroupAttached10metaObjectEv@Qt_5_PRIVATE_API 5.6.0~beta
  _ZNK25QQuickButtonGroupAttached5groupEv@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZNK27QQuickAbstractButtonPrivate14acceptKeyClickEN2Qt3KeyE@Qt_5_PRIVATE_API 5.12.3
  _ZNK27QQuickAbstractButtonPrivate17findCheckedButtonEv@Qt_5_PRIVATE_API 5.9.0~rc
  _ZNK27QQuickAbstractButtonPrivate20findExclusiveButtonsEv@Qt_5_PRIVATE_API 5.9.0~rc
  _ZNK27QQuickSwipeDelegateAttached10metaObjectEv@Qt_5_PRIVATE_API 5.9.0~rc
@@ -2646,6 +2661,8 @@ libQt5QuickTemplates2.so.5 libqt5quicktemplates2-5 #MINVER#
  _ZNK31QQuickApplicationWindowAttached6windowEv@Qt_5_PRIVATE_API 5.6.0~beta
  _ZNK31QQuickApplicationWindowAttached7menuBarEv@Qt_5_PRIVATE_API 5.10.1
  _ZNK31QQuickApplicationWindowAttached7overlayEv@Qt_5_PRIVATE_API 5.6.0~beta
+ (optional=templinst)_ZNSt3_V28__rotateIPP20QQuickAbstractButtonEET_S4_S4_S4_St26random_access_iterator_tag@Qt_5_PRIVATE_API 5.12.3
+ (optional=templinst)_ZSt17__rotate_adaptiveIPP20QQuickAbstractButtonS2_lET_S3_S3_S3_T1_S4_T0_S4_@Qt_5_PRIVATE_API 5.12.3
  _ZTI10QQuickDial@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTI10QQuickMenu@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTI10QQuickPage@Qt_5_PRIVATE_API 5.7.1
@@ -2727,10 +2744,10 @@ libQt5QuickTemplates2.so.5 libqt5quicktemplates2-5 #MINVER#
  _ZTI27QQuickAbstractButtonPrivate@Qt_5_PRIVATE_API 5.9.0~rc
  _ZTI27QQuickSwipeDelegateAttached@Qt_5_PRIVATE_API 5.9.0~rc
  _ZTI29QQuickDialogButtonBoxAttached@Qt_5_PRIVATE_API 5.9.0~rc
- _ZTI29QQuickImplicitSizeItemPrivate@Qt_5_PRIVATE_API 5.10.1
+ _ZTI29QQuickImplicitSizeItemPrivate@Qt_5 5.12.3
  _ZTI29QQuickScrollIndicatorAttached@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTI31QQuickApplicationWindowAttached@Qt_5_PRIVATE_API 5.6.0~beta
- _ZTI38QQuickItemViewTransitionChangeListener@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZTI38QQuickItemViewTransitionChangeListener@Qt_5 5.12.3
  _ZTS10QQuickDial@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTS10QQuickMenu@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTS10QQuickPage@Qt_5_PRIVATE_API 5.7.1
@@ -2812,10 +2829,10 @@ libQt5QuickTemplates2.so.5 libqt5quicktemplates2-5 #MINVER#
  _ZTS27QQuickAbstractButtonPrivate@Qt_5_PRIVATE_API 5.9.0~rc
  _ZTS27QQuickSwipeDelegateAttached@Qt_5_PRIVATE_API 5.9.0~rc
  _ZTS29QQuickDialogButtonBoxAttached@Qt_5_PRIVATE_API 5.9.0~rc
- _ZTS29QQuickImplicitSizeItemPrivate@Qt_5_PRIVATE_API 5.10.1
+ _ZTS29QQuickImplicitSizeItemPrivate@Qt_5 5.12.3
  _ZTS29QQuickScrollIndicatorAttached@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTS31QQuickApplicationWindowAttached@Qt_5_PRIVATE_API 5.6.0~beta
- _ZTS38QQuickItemViewTransitionChangeListener@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZTS38QQuickItemViewTransitionChangeListener@Qt_5 5.12.3
  _ZTV10QQuickDial@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTV10QQuickMenu@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTV10QQuickPage@Qt_5_PRIVATE_API 5.7.1
@@ -2897,7 +2914,7 @@ libQt5QuickTemplates2.so.5 libqt5quicktemplates2-5 #MINVER#
  _ZTV27QQuickAbstractButtonPrivate@Qt_5_PRIVATE_API 5.9.0~rc
  _ZTV27QQuickSwipeDelegateAttached@Qt_5_PRIVATE_API 5.9.0~rc
  _ZTV29QQuickDialogButtonBoxAttached@Qt_5_PRIVATE_API 5.9.0~rc
- _ZTV29QQuickImplicitSizeItemPrivate@Qt_5_PRIVATE_API 5.10.1
+ _ZTV29QQuickImplicitSizeItemPrivate@Qt_5 5.12.3
  _ZTV29QQuickScrollIndicatorAttached@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTV31QQuickApplicationWindowAttached@Qt_5_PRIVATE_API 5.6.0~beta
  (c++)"non-virtual thunk to QQuickAbstractButton::componentComplete()@Qt_5_PRIVATE_API" 5.10.1
