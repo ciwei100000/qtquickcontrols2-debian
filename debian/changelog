@@ -1,4 +1,4 @@
-qtquickcontrols2-opensource-src (5.12.4+dfsg-1) UNRELEASED; urgency=medium
+qtquickcontrols2-opensource-src (5.12.4+dfsg-1) experimental; urgency=medium
 
   [ Scarlett Moore ]
   * Update packaging to use doc-base as per policy 9.10.
@@ -13,7 +13,7 @@ qtquickcontrols2-opensource-src (5.12.4+dfsg-1) UNRELEASED; urgency=medium
   * Do not use ${qmlc:Depends} variable for qml-module-qtquick-controls2.
     It is undefined there, as qmlcache is only used in calendar.pro.
 
- -- Scarlett Moore <sgmoore@kde.org>  Mon, 06 May 2019 10:15:41 -0700
+ -- Dmitry Shachnev <mitya57@debian.org>  Thu, 27 Jun 2019 23:26:59 +0300
 
 qtquickcontrols2-opensource-src (5.12.3+dfsg-1) experimental; urgency=medium
 
