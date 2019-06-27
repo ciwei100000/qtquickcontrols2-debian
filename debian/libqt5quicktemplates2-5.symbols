@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.12.3 amd64
+# SymbolsHelper-Confirmed: 5.12.3 amd64 armel armhf i386 m68k mips mipsel powerpc x32
 libQt5QuickTemplates2.so.5 libqt5quicktemplates2-5 #MINVER#
  Qt_5.0@Qt_5.0 5.12.3
  Qt_5.10@Qt_5.10 5.12.3
@@ -2662,7 +2662,7 @@ libQt5QuickTemplates2.so.5 libqt5quicktemplates2-5 #MINVER#
  _ZNK31QQuickApplicationWindowAttached7menuBarEv@Qt_5_PRIVATE_API 5.10.1
  _ZNK31QQuickApplicationWindowAttached7overlayEv@Qt_5_PRIVATE_API 5.6.0~beta
  (optional=templinst)_ZNSt3_V28__rotateIPP20QQuickAbstractButtonEET_S4_S4_S4_St26random_access_iterator_tag@Qt_5_PRIVATE_API 5.12.3
- (optional=templinst)_ZSt17__rotate_adaptiveIPP20QQuickAbstractButtonS2_lET_S3_S3_S3_T1_S4_T0_S4_@Qt_5_PRIVATE_API 5.12.3
+ (optional=templinst|subst)_ZSt17__rotate_adaptiveIPP20QQuickAbstractButtonS2_{ssize_t}ET_S3_S3_S3_T1_S4_T0_S4_@Qt_5_PRIVATE_API 5.12.3
  _ZTI10QQuickDial@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTI10QQuickMenu@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTI10QQuickPage@Qt_5_PRIVATE_API 5.7.1
