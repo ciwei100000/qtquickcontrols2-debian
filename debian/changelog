@@ -9,6 +9,7 @@ qtquickcontrols2-opensource-src (5.12.4+dfsg-1) UNRELEASED; urgency=medium
   * Bump Qt build-dependencies to 5.12.4.
   * Simplify debian/rules by using a debian/not-installed file.
   * Add support for nocheck build profile.
+  * Add support for nodoc build profile.
 
  -- Scarlett Moore <sgmoore@kde.org>  Mon, 06 May 2019 10:15:41 -0700
 

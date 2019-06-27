@@ -21,9 +21,9 @@ Build-Depends: debhelper (>= 11),
                qtdeclarative5-private-dev (>= 5.12.4~),
                xauth <!nocheck>,
                xvfb <!nocheck>
-Build-Depends-Indep: qtbase5-doc-html (>= 5.12.4+dfsg~),
-                     qtdeclarative5-doc-html (>= 5.12.4~),
-                     qttools5-dev-tools (>= 5.12.4~)
+Build-Depends-Indep: qtbase5-doc-html (>= 5.12.4+dfsg~) <!nodoc>,
+                     qtdeclarative5-doc-html (>= 5.12.4~) <!nodoc>,
+                     qttools5-dev-tools (>= 5.12.4~) <!nodoc>
 Standards-Version: 4.3.0
 Homepage: https://code.qt.io/cgit/qt/qtquickcontrols2.git
 Vcs-Git: https://salsa.debian.org/qt-kde-team/qt/qtquickcontrols2.git
@@ -109,6 +109,7 @@ Description: Qt 5 Quick Controls 2 development files
  This package contains the Qt Quick Controls 2 development files.
 
 Package: qtquickcontrols2-5-doc
+Build-Profiles: <!nodoc>
 Architecture: all
 Section: doc
 Depends: ${misc:Depends}
@@ -121,6 +122,7 @@ Description: Qt 5 Quick Controls 2 documentation
  This package contains the Qt Quick Controls 2 documentation in qch format.
 
 Package: qtquickcontrols2-5-doc-html
+Build-Profiles: <!nodoc>
 Architecture: all
 Section: doc
 Depends: ${misc:Depends}
