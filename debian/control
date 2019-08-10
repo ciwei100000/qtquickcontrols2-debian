@@ -99,6 +99,8 @@ Multi-Arch: same
 Depends: libqt5quickcontrols2-5 (= ${binary:Version}),
          libqt5quicktemplates2-5 (= ${binary:Version}),
          ${misc:Depends}
+Breaks: qtquickcontrols2-5-doc-html (<< 5.12.4+dfsg-1~)
+Replaces: qtquickcontrols2-5-doc-html (<< 5.12.4+dfsg-1~)
 Description: Qt 5 Quick Controls 2 development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -135,6 +137,8 @@ Package: qtquickcontrols2-5-examples
 Architecture: any
 Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: qtquickcontrols2-5-doc-html (<< 5.12.4+dfsg-1~)
+Replaces: qtquickcontrols2-5-doc-html (<< 5.12.4+dfsg-1~)
 Description: Qt 5 Qt Quick Templates 2 examples
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
