@@ -1,5 +1,6 @@
 # SymbolsHelper-Confirmed: 5.12.2 amd64
 libQt5QuickControls2.so.5 libqt5quickcontrols2-5 #MINVER#
+* Build-Depends-Package: qtquickcontrols2-5-dev
  Qt_5.0@Qt_5.0 5.7.1
  Qt_5.10@Qt_5.10 5.10.1
  Qt_5.11@Qt_5.11 5.11.1

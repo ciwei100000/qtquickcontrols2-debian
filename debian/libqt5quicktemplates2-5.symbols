@@ -1,5 +1,6 @@
 # SymbolsHelper-Confirmed: 5.12.5 amd64 i386
 libQt5QuickTemplates2.so.5 libqt5quicktemplates2-5 #MINVER#
+* Build-Depends-Package: qtquickcontrols2-5-dev
  Qt_5.0@Qt_5.0 5.12.3
  Qt_5.10@Qt_5.10 5.12.3
  Qt_5.11@Qt_5.11 5.12.3
