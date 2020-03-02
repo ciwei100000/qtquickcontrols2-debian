@@ -4,6 +4,8 @@ qtquickcontrols2-opensource-src (5.14.1+dfsg-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Bump Qt build-dependencies to 5.14.1.
   * Update symbols files from the current build log.
+  * Update to debhelper compat level 12.
+    - Switch to using debhelper-compat as a build dependency.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 01 Mar 2020 17:48:02 +0300
 
