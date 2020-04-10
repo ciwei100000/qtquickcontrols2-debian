@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.12.5 amd64 i386 m68k mips64el mipsel powerpc ppc64 ppc64el s390x
+# SymbolsHelper-Confirmed: 5.12.8 ppc64el riscv64 s390x
 libQt5QuickTemplates2.so.5 libqt5quicktemplates2-5 #MINVER#
 * Build-Depends-Package: qtquickcontrols2-5-dev
  Qt_5.0@Qt_5.0 5.12.3
@@ -2662,7 +2662,7 @@ libQt5QuickTemplates2.so.5 libqt5quicktemplates2-5 #MINVER#
  _ZNK31QQuickApplicationWindowAttached7menuBarEv@Qt_5_PRIVATE_API 5.10.1
  _ZNK31QQuickApplicationWindowAttached7overlayEv@Qt_5_PRIVATE_API 5.6.0~beta
  (optional=templinst)_ZNSt3_V28__rotateIPP20QQuickAbstractButtonEET_S4_S4_S4_St26random_access_iterator_tag@Qt_5_PRIVATE_API 5.12.3
- (optional=templinst|arch=m68k mips64el mipsel powerpc ppc64 ppc64el s390x|subst)_ZSt17__rotate_adaptiveIPP20QQuickAbstractButtonS2_{ssize_t}ET_S3_S3_S3_T1_S4_T0_S4_@Qt_5_PRIVATE_API 5.12.5
+ (optional=templinst|arch=m68k mips64el mipsel powerpc ppc64 riscv64|subst)_ZSt17__rotate_adaptiveIPP20QQuickAbstractButtonS2_{ssize_t}ET_S3_S3_S3_T1_S4_T0_S4_@Qt_5_PRIVATE_API 5.12.5
  _ZTI10QQuickDial@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTI10QQuickMenu@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTI10QQuickPage@Qt_5_PRIVATE_API 5.7.1

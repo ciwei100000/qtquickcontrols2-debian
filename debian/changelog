@@ -2,6 +2,7 @@ qtquickcontrols2-opensource-src (5.12.8+dfsg-0ubuntu1) UNRELEASED; urgency=mediu
 
   * New upstream bugfix release.
   * Bump Qt build-dependencies to 5.12.8.
+  * Update debian/libqt5quicktemplates2-5.symbols from the current build log.
 
  -- Dmitry Shachnev <mitya57@ubuntu.com>  Thu, 09 Apr 2020 12:15:27 +0300
 
