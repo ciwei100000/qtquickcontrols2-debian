@@ -6,6 +6,7 @@ qtquickcontrols2-opensource-src (5.15.1+dfsg-1) UNRELEASED; urgency=medium
   * Update debian/libqt5quicktemplates2-5.symbols from buildds’ logs.
   * Update to debhelper compat level 13.
     - Drop dh_missing override, --fail-missing is now default behavior.
+    - Use ${DEB_HOST_MULTIARCH} substitution in install files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 13 Sep 2020 21:59:32 +0300
 
