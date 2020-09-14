@@ -7,13 +7,13 @@ Files-Excluded: examples/quickcontrols2/texteditor/fonts
 # Fontello fonts.
 
 Files: *
-Copyright: 2017-2018 The Qt Company Ltd.
+Copyright: 2017-2020 The Qt Company Ltd.
 License: LGPL-3 or GPL-2
 
 Files: examples/*
        tests/auto/*/data/*.qml
        tests/manual/*
-Copyright: 2017-2019 The Qt Company Ltd.
+Copyright: 2017-2020 The Qt Company Ltd.
 License: BSD-3-clause
 
 Files: src/imports/controls/material/ElevationEffect.qml
@@ -43,11 +43,12 @@ Copyright: 2015-2016 Dave Gandy
 License: OFL-1.1
 
 Files: *.qdoc
-Copyright: 2015 The Qt Company Ltd.
+       src/imports/controls/doc/snippets/*.qml
+Copyright: 2015-2020 The Qt Company Ltd.
 License: GFDL-NIV-1.3
 
 Files: debian/*
-Copyright: 2015-2019 Dmitry Shachnev <mitya57@debian.org>
+Copyright: 2015-2020 Dmitry Shachnev <mitya57@debian.org>
 License: LGPL-3 or GPL-2
 
 License: LGPL-3
