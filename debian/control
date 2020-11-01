@@ -113,6 +113,7 @@ Section: doc
 Depends: ${misc:Depends}
 Breaks: qtquickcontrols5-doc (<< 5.12)
 Replaces: qtquickcontrols5-doc (<< 5.12)
+Multi-Arch: foreign
 Description: Qt 5 Quick Controls 2 documentation
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -126,6 +127,7 @@ Section: doc
 Depends: ${misc:Depends}
 Breaks: qtquickcontrols5-doc-html (<< 5.12)
 Replaces: qtquickcontrols5-doc-html (<< 5.12)
+Multi-Arch: foreign
 Description: Qt 5 Quick Controls 2 HTML documentation
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
