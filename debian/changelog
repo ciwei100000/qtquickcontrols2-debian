@@ -1,8 +1,12 @@
-qtquickcontrols2-opensource-src (5.15.1+dfsg-3) UNRELEASED; urgency=medium
+qtquickcontrols2-opensource-src (5.15.2+dfsg-1) UNRELEASED; urgency=medium
 
+  [ Debian Janitor ]
   * Apply multi-arch hints.
     + qtquickcontrols2-5-doc, qtquickcontrols2-5-doc-html: Add Multi-Arch:
       foreign.
+
+  [ Dmitry Shachnev ]
+  * New upstream release.
 
  -- Debian Janitor <janitor@jelmer.uk>  Sun, 01 Nov 2020 03:40:03 -0000
 
