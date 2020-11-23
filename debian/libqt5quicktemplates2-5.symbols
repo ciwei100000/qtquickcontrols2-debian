@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.15.1 amd64 i386 mips64el mipsel ppc64el riscv64 s390x
+# SymbolsHelper-Confirmed: 5.15.2 amd64 i386
 libQt5QuickTemplates2.so.5 libqt5quicktemplates2-5 #MINVER#
 * Build-Depends-Package: qtquickcontrols2-5-dev
  Qt_5.0@Qt_5.0 5.12.3
@@ -118,6 +118,9 @@ libQt5QuickTemplates2.so.5 libqt5quicktemplates2-5 #MINVER#
  _ZN10QQuickMenu9addActionEP12QQuickAction@Qt_5_PRIVATE_API 5.10.1
  _ZN10QQuickMenuC1EP7QObject@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN10QQuickMenuC2EP7QObject@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN10QQuickMenuD0Ev@Qt_5_PRIVATE_API 5.15.2
+ _ZN10QQuickMenuD1Ev@Qt_5_PRIVATE_API 5.15.2
+ _ZN10QQuickMenuD2Ev@Qt_5_PRIVATE_API 5.15.2
  _ZN10QQuickPage11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.7.1
  _ZN10QQuickPage11qt_metacastEPKc@Qt_5_PRIVATE_API 5.7.1
  _ZN10QQuickPage12titleChangedEv@Qt_5_PRIVATE_API 5.7.1
@@ -1386,6 +1389,7 @@ libQt5QuickTemplates2.so.5 libqt5quicktemplates2-5 #MINVER#
  _ZN17QQuickMenuPrivate22prepareEnterTransitionEv@Qt_5_PRIVATE_API 5.10.1
  _ZN17QQuickMenuPrivate23itemSiblingOrderChangedEP10QQuickItem@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN17QQuickMenuPrivate24onItemActiveFocusChangedEv@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN17QQuickMenuPrivate4initEv@Qt_5_PRIVATE_API 5.15.2
  _ZN17QQuickMenuPrivate8moveItemEii@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN17QQuickMenuPrivateC1Ev@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN17QQuickMenuPrivateC2Ev@Qt_5_PRIVATE_API 5.6.0~beta
@@ -3162,6 +3166,7 @@ libQt5QuickTemplates2.so.5 libqt5quicktemplates2-5 #MINVER#
  (c++)"non-virtual thunk to QQuickLabel::componentComplete()@Qt_5_PRIVATE_API" 5.7.1
  (c++)"non-virtual thunk to QQuickLabel::~QQuickLabel()@Qt_5_PRIVATE_API" 5.12.2
  (c++)"non-virtual thunk to QQuickMenu::componentComplete()@Qt_5_PRIVATE_API" 5.7.1
+ (c++)"non-virtual thunk to QQuickMenu::~QQuickMenu()@Qt_5_PRIVATE_API" 5.15.2
  (c++)"non-virtual thunk to QQuickMenuBarPrivate::itemImplicitHeightChanged(QQuickItem*)@Qt_5_PRIVATE_API" 5.12.2
  (c++)"non-virtual thunk to QQuickMenuBarPrivate::itemImplicitWidthChanged(QQuickItem*)@Qt_5_PRIVATE_API" 5.12.2
  (c++)"non-virtual thunk to QQuickMenuItem::componentComplete()@Qt_5_PRIVATE_API" 5.10.1
