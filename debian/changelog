@@ -1,4 +1,4 @@
-qtquickcontrols2-opensource-src (5.15.2+dfsg-1) UNRELEASED; urgency=medium
+qtquickcontrols2-opensource-src (5.15.2+dfsg-1) experimental; urgency=medium
 
   [ Debian Janitor ]
   * Apply multi-arch hints.
@@ -12,7 +12,7 @@ qtquickcontrols2-opensource-src (5.15.2+dfsg-1) UNRELEASED; urgency=medium
     large qttools5-dev-tools package.
   * Update debian/libqt5quicktemplates2-5.symbols from the current logs.
 
- -- Debian Janitor <janitor@jelmer.uk>  Sun, 01 Nov 2020 03:40:03 -0000
+ -- Dmitry Shachnev <mitya57@debian.org>  Mon, 23 Nov 2020 20:45:29 +0300
 
 qtquickcontrols2-opensource-src (5.15.1+dfsg-2) unstable; urgency=medium
 
