@@ -108,6 +108,18 @@ Description: Qt 5 Quick Controls 2 development files
  .
  This package contains the Qt Quick Controls 2 development files.
 
+Package: qtquickcontrols2-5-private-dev
+Section: libdevel
+Architecture: any
+Multi-Arch: same
+Depends: qtquickcontrols2-5-dev (= ${binary:Version}),
+         ${misc:Depends}
+Description: Qt 5 Quick Controls 2 private development files
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the Qt Quick Controls 2 private development files.
+
 Package: qtquickcontrols2-5-doc
 Build-Profiles: <!nodoc>
 Architecture: all
