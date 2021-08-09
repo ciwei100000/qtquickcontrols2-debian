@@ -2,6 +2,7 @@ qtquickcontrols2-opensource-src (5.15.2+dfsg-3) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * Add qtquickcontrols2-5-private-dev package (closes: #958521).
+  * Update debian/watch: use version=4, and track only 5.15.x releases.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 09 Aug 2021 20:31:46 +0300
 
